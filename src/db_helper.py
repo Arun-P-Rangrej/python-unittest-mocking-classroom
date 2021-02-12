@@ -21,7 +21,7 @@ if __name__ == "__main__":
     mycursor = db.cursor()
     # cursor.execute("CREATE DATABASE datagrokr")
     # cursor.execute("CREATE TABLE employee( name VARCHAR(255), salary INTEGER(6))")
-    # myquery="INSERT INTO salary(name,salary) VALUES (%s,%s)"
+    # myquery="INSERT INTO employee(name,salary) VALUES (%s,%s)"
     # values=[ ("Arun P Rangrej",60000),("Padma K",40000),("Dinakar",34000),("Primith",4000)]
     db_helper = DbHelper()
     min_salary = db_helper.get_minimum_salary()
